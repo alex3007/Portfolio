@@ -183,7 +183,7 @@ header .active a::after {
 .footer-wrapper {
 
     background-color: rgba(0, 0, 0, 0.6);
-    min-height: 50vh;
+    min-height: 80vh;
 
 }
 
@@ -236,10 +236,10 @@ header .active a::after {
 
 
 .col-shadow {
-    transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
+    transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -o-transition: all 0.1s;
     border: 1px solid #c9c9cd;
     margin-bottom: 30px;
     padding: 10px;
@@ -256,7 +256,18 @@ header .active a::after {
 
 .dawn-title {
     margin-top: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.footer-tittle{
+    
+    margin-top: 140px;
+    margin-bottom: 70px;
+}
+
+.marginBottom{
+    
+    margin-bottom: 50px;
 }
 
 .about-me {
@@ -281,7 +292,7 @@ header .active a::after {
 .content-logo {
     width: 110px;
     margin-top: -55px;
-    border-radius: 55px;
+    border-radius: 78px;
     box-shadow: 0 0 20px black;
 
 }
@@ -426,10 +437,10 @@ grid-posts {
 }
 
 .card-img-top {
-    transition: all 2s;
-    -moz-transition: all 2s;
-    -webkit-transition: all 2s;
-    -o-transition: all 2s;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 .card-img-top:hover {
@@ -452,6 +463,11 @@ footer {
     font-size: 18px;
     text-align: center;
 
+}
+
+.imageA{
+    
+    margin: 15px;
 }
 
 /* Large Devices, Wide Screens */
