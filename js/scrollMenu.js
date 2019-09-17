@@ -23,9 +23,6 @@ $('document').ready(function () {
                     $(this).css('cssText', 'color:rgba(255, 255, 255, 0.8)!important;')
 
                 });
-                
-                
-
 */
             $('#navUl a').hover(
                 function () {
@@ -53,25 +50,17 @@ $('document').ready(function () {
                     $(this).css('cssText', 'color:rgba(0, 0, 0, 0.5)!important; ')
 
                 });
-*/
+
             $('#navUl a').hover(
                 function () {
                     $(this).toggleClass('jsHover')
 
-                });
+                });*/
 
         };
 
 
     }
-
-    $('#navUl a').hover(
-        function () {
-            $(this).toggleClass('jsHover')
-
-        });
-
-
 
     $('#navUl').onePageNav({
         currentClass: 'active',
