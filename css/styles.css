@@ -220,9 +220,9 @@ header .active a::after {
 
 .col-shadow:hover {
 
-    box-shadow: 1px 5px 10px #c9c9cd;
-    -webkit-box-shadow: 1px 1px 10px #c9c9cd;
-    -moz-box-shadow: 1px 1px 10px #c9c9cd;
+    box-shadow: 3px 5px 10px #c9c9cd;
+    -webkit-box-shadow: 3px 5px 10px #c9c9cd;
+    -moz-box-shadow: 3px 5px 10px #c9c9cd;
 
     -o-transform: translate(-2px, -2px);
     -ms-transform: translate(-2px, -2px);
