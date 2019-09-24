@@ -15,7 +15,7 @@ $('document').ready(function () {
             $('.navbarBrand').css('cssText', 'color:rgba(255, 255, 255, 0.8)!important;');
             $('.navbar-toggler-icon').css('cssText', 'background-image: url(images/menu1.png) !important; ');
             $('.navbar-toggler').css('cssText', 'border-color: rgba(255, 255, 255, 0.5)!important;');
-            /*    $('.nav-link').hover(
+                $('.nav-link').hover(
                 function () {
                     $(this).css('cssText', 'color: #03a9f4 !important;')
                 },
@@ -23,12 +23,12 @@ $('document').ready(function () {
                     $(this).css('cssText', 'color:rgba(255, 255, 255, 0.8)!important;')
 
                 });
-*/
-            $('#navUl a').hover(
+
+       /*     $('#navUl a').hover(
                 function () {
                     $(this).toggleClass('jsHover')
 
-                });
+                });*/
 
         } else {
 
@@ -42,7 +42,7 @@ $('document').ready(function () {
             $('.navbar-toggler-icon').css('cssText', 'background-image: url(images/menu2.png) !important; ');
             $('.navbar-toggler').css('cssText', 'border-color: rgba(0, 0, 0, 0.5)!important;');
 
-            /*  $('.nav-link').hover(
+             $('.nav-link').hover(
                 function () {
                     $(this).css('cssText', 'color: #03a9f4 !important; ')
                 },
@@ -51,16 +51,28 @@ $('document').ready(function () {
 
                 });
 
-            $('#navUl a').hover(
+          /*  $('#navUl a').hover(
                 function () {
                     $(this).toggleClass('jsHover')
 
                 });*/
 
         };
-
-
+        
+    
     }
+    
+    
+    $('.nav-link').hover(
+                function () {
+                    $(this).css('cssText', 'color: #03a9f4 !important; ')
+                },
+                function () {
+                    $(this).css('cssText', 'color:rgba(255, 255, 255, 0.8)!important; ')
+
+                });    
+    
+    
 
     $('#navUl').onePageNav({
         currentClass: 'active',
