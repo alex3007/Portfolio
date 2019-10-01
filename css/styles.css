@@ -154,7 +154,7 @@ header .active a::after {
     margin-top: 25px;
 }
 
-#greating {
+#greeting {
 
     background-image: url(../images/it1.jpg);
     min-height: 60vh;
