@@ -1,24 +1,14 @@
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-
     min-width: 320px;
     font-size: 14px;
     font-family: 'muli', italic;
     color: #626262;
 }
-
-
-img {
-
-    max-width: 100%;
-    height: auto;
-}
-
 
 a {
     color: dodgerblue;
@@ -28,18 +18,18 @@ a:hover {
     color: #898377;
 }
 
-/*-------------Header------------------*/
-
-
-header {
-
-    position: fixed;
-    width: 100%;
-    z-index: 20;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-header .navbar-light {}
+/*------Header------*/
 
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
 
 header .nav-item {
     text-transform: uppercase;
@@ -50,49 +40,23 @@ header .nav-item {
 }
 
 
-
-header .active a::after {
-    content: '';
-    display: block;
-    width: 100%;
-    background-color: #03a9f4;
-    height: 2px;
-    transform: scale(1);
-    
-    
-}
-
-
 .header-wrapper {
-
     background-color: rgba(0, 0, 0, 0.3);
     min-height: 100vh;
     padding-bottom: 70px;
-
 }
 
-
 .header-subtitle {
-
 
     font-size: 22px;
     padding-bottom: 20px
 }
 
-
-/*-------------------Navigation-----------*/
+/*-----Navigation------*/
 
 #navBar a {
 
     color: rgba(255, 255, 255, 0.8);
-}
-
-
-
-.jsHover {
-    
-    color: #03a9f4 !important ;
-    
 }
 
 .navbarBrand {
@@ -104,20 +68,9 @@ header .active a::after {
 
 .navbarBrand:hover {
 
-
     text-decoration: none !important;
     color: rgba(255, 255, 255, 0.8) !important;
-    
-        
 }
-
-.align-holder {
-
-    
-    padding-top: 160px;
-    color: white;
-}
-
 
 .navbar-toggler-icon {
     background-image: url(../images/menu1.png) !important;
@@ -136,25 +89,22 @@ header .active a::after {
     background-color: rgba(255, 255, 255, 0.1)
 }
 
-/*----------------------About me--------------*/
 
-.card-image {
+.jsHover {
 
-    padding-right: 10px;
-
+    color: #03a9f4 !important;
 }
 
-.color-tittle {
+.align-holder {
+
+    padding-top: 160px;
     color: white;
 }
 
-.color2 {
+/*-----Top-----*/
 
-    color: #ff9800;
-    margin-top: 25px;
-}
 
-#greeting {
+.greeting {
 
     background-image: url(../images/it1.jpg);
     min-height: 60vh;
@@ -162,20 +112,9 @@ header .active a::after {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-
 }
 
-#contacts {
-
-    background-image: url(../images/it1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-
-.button-CV {
+.button-cv {
     color: rgba(255, 255, 255, 0.8);
     background-color: rgba(255, 255, 255, 0.3);
     width: 185px;
@@ -186,16 +125,114 @@ header .active a::after {
     padding-top: 8px;
     border: 3px solid rgba(255, 255, 255, 0.8);
     font-weight: bold;
-
-
-
 }
 
-
-.button-CV:hover {
+.button-cv:hover {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.2)
+}
+
+.round-images {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.content{
+    
+    text-align: center;
+    
+}
+
+.content-logo img{
+    
+   width: 50px;
+    margin-top: 27px
+}
+
+.content-logo {
+    width: 110px;
+    height: 110px;
+    margin-top: -55px;
+    border-radius: 60px;
+    box-shadow: 0 0 20px black;
+    background-color: rgba(68, 162, 219,1);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.content h5 {
+
+    font-size: 14px;
+    font-family: 'muli', italic;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    
+}
+
+.content img{
+    
+    
+}
+
+
+
+.midle-image {
+    margin: 0 -60px;
+    z-index: 1;
+}
+
+/*------About me------*/
+
+#target {
+
+    background-color: #f5fafd;
+    padding-bottom: 40px;
+}
+
+
+#target img {
+    border-radius: 10px;
+}
+
+.about-me {
+
+    padding-top: 25px;
+}
+
+.row-padding {
+
+    padding: 0 65px;
+}
+
+.card-block {
+
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.card-img-block {
+    padding-right: 10px;
+    text-align: center;
+}
+
+.card-img-block img {
+
+    max-width: 100px;
+}
+
+.color-tittle {
+    color: white;
+}
+
+.card-title-color {
+
+    color: #ff9800;
+    margin-top: 25px;
 }
 
 
@@ -212,59 +249,38 @@ header .active a::after {
     padding: 10px;
 }
 
-.col-distance {}
 
-
-.title-center {
-
-    text-align: center;
-
-}
-
-.dawn-title {
+.title-styles {
     margin-top: 100px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
-.marginBottom{
-    
-    margin-bottom: 50px;
-}
 
-.about-me {
+/*-------Portfolio------*/
 
-    padding-top: 25px;
-}
 
-/*----------------Portfolio----------*/
-
-.card-img img {
-
-    opacity: 0.85;
-
+.card{
+    margin-bottom: 50px!important;
 }
 
 .card-img {
 
     background-color: black;
-
+    overflow: hidden;
 }
 
-.content-logo {
-    width: 110px;
-    margin-top: -55px;
-    border-radius: 78px;
-    box-shadow: 0 0 20px black;
+.card-img img {
 
+    opacity: 0.85;
 }
 
-.content-logo-tittle {
+.card-img-top {
+    transition: all 0.5s;
+}
 
-    font-size: 14px;
-    font-family: 'muli', italic;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 90px;
+.card-img-top:hover {
+    transform: scale(1.1, 1.1);
 }
 
 .post-category {
@@ -280,8 +296,14 @@ header .active a::after {
     font-size: 26px;
 }
 
-.card-text-align {
+.post-image-block {
+
     text-align: center;
+}
+
+.post-image {
+
+    max-width: 650px;
 }
 
 .container-bottom {
@@ -308,35 +330,35 @@ grid-posts {
     border-radius: 0;
 }
 
+/*-----Contacts-----*/
 
+#contacts {
 
-.post-image-block {
-
-    text-align: center;
-}
-
-.post-image {
-
-    max-width: 650px;
-}
-
-.card-img {
-    overflow: hidden;
-
-}
-
-.card-img-top {
-    transition: all 0.5s;
-  
-}
-
-.card-img-top:hover {
-     transform: scale(1.1, 1.1);
-
+    background-image: url(../images/it1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
-/*------------Footer--------*/
+.contacts{
+
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+a.contacts{
+    
+    color: rgba(68, 162, 219,1); 
+}
+
+a.contacts:hover{
+    
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+/*------Footer-----*/
 
 footer {
     background-color: #fff;
@@ -345,132 +367,172 @@ footer {
     font-family: 'Inconsolata', monospace;
     font-size: 18px;
     text-align: center;
-
 }
 
 .footer-wrapper {
 
     background-color: rgba(0, 0, 0, 0.6);
     min-height: 80vh;
-
 }
 
-.footer-tittle{
-    
+.footer-tittle {
+
     margin-top: 140px;
     margin-bottom: 70px;
 }
 
 
-.footer-image{
-    
+.footer-image {
+
     margin: 5px;
-    max-width: 40px;
+    padding: 5px;
+    width: 40px;
+    background-color: rgba(68, 162, 219,0.7);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px #000000;
 }
 
 
 .footer-image:hover {
-    
-    box-shadow: 0 0 10px #fff;
-    border-radius: 20px;
-}
 
-
-.footer-p-margin{
     
-    padding-left: 10px;
+    background-color: rgba(68, 162, 219,0.4);
     
 }
 
 
-
-/*-----------------Media----------------------*/
+/*-------Media-------*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width : 1200px) {}
 
 
 
-    @media only screen and (max-width: 1199px) {
-        .grid-posts .card-img-top {
-            max-height: 300px;
-        }
+@media only screen and (max-width: 1199px) {
+    .grid-posts .card-img-top {
+        max-height: 300px;
     }
 
-    /* Medium Devices, Desktops */
-    @media only screen and (max-width : 992px) {}
+    .row-padding {
 
-    @media only screen and (max-width : 991px) {
+        padding: 0 0;
+    }
+}
 
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {}
 
-        nav {
-
-            text-align: center;
-            width: 100%;
-            float: none;
-            background-color: rgba(255, 255, 255, 0.1);
-
-        }
-
-        nav .nav-item {
-
-            width: 100px;
-            margin-left: auto !important;
-            margin-right: 60px !important;
+@media only screen and (max-width : 991px) {
 
 
-        }
+    nav {
 
+        text-align: center;
+        width: 100%;
+        float: none;
+        background-color: rgba(255, 255, 255, 0.1);
 
-
-
-        .grid-posts .card-img-top {
-            max-height: 220px;
-        }
     }
 
-    /* Small Devices, Tablets */
-    @media only screen and (max-width : 768px) {
-        .grid-posts {
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
+    nav .nav-item {
 
-        .grid-posts .card {
-            margin-bottom: 50px;
-        }
+        width: 100px;
+        margin-left: auto !important;
+        margin-right: 60px !important;
 
-        .grid-posts .card-img-top {
-            max-height: 100%;
-        }
-
-        .card-text-block {
-            text-align: center;
-        }
-
-        .card-image {
-
-            text-align: center;
-        }
-
-        .card-image img {
-
-            width: 100px;
-
-
-        }
-
-        .about-me {
-            text-align: center;
-
-        }
     }
 
-    @media only screen and (max-width : 575px) {
-        .footer-left {
-            margin-bottom: 10px;
-        }
+    .grid-posts .card-img-top {
+        max-height: 220px;
     }
 
-    /* Extra Small Devices, Phones */
-    @media only screen and (max-width : 480px) {}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .grid-posts {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .grid-posts .card {
+        margin-bottom: 50px;
+    }
+
+    .grid-posts .card-img-top {
+        max-height: 100%;
+    }
+
+
+    .bottom {
+
+        margin-bottom: 15px;
+    }
+
+
+    .about-me {
+        text-align: center;
+
+    }
+    
+    .card{
+    margin-bottom: 0px!important;
+}
+}
+
+@media only screen and (max-width : 575px) {
+    .footer-left {
+        margin-bottom: 10px;
+    }
+
+    .content-logo {
+        margin-top: 0px;
+    }
+
+    .round-images {
+
+        display: block;
+        margin-top: 70px;
+    }
+
+    .about-me h2 {
+        font-size: 25px;
+    }
+
+
+    .midle-image {
+
+        margin: 0 -45px;
+    }
+
+    .card-text-block {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .card-title-color {
+
+        margin-top: 5px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 360px) {
+
+    .align-holder h1 {
+
+        font-size: 35px;
+    }
+
+    .midle-image {
+
+        margin: 0 -35px;
+    }
+    
+.title-styles {
+    
+    font-size: 27px!important;
+}
+
+}

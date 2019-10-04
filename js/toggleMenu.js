@@ -1,12 +1,14 @@
 $('document').ready(function () {
 
     window.onscroll = function () {
+
         var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+
+        //Styles of the navigation for start position of the page   
 
         if (scrolled == 0) {
 
-
-            $('.headerBg').css({
+            $('#header').css({
                 'backgroundColor': 'rgba(255, 255, 255, 0)',
                 'boxShadow': '0 0 10px rgba(255, 255, 255, 0)'
             });
@@ -15,7 +17,7 @@ $('document').ready(function () {
             $('.navbarBrand').css('cssText', 'color:rgba(255, 255, 255, 0.8)!important;');
             $('.navbar-toggler-icon').css('cssText', 'background-image: url(images/menu1.png) !important; ');
             $('.navbar-toggler').css('cssText', 'border-color: rgba(255, 255, 255, 0.5)!important;');
-                $('.nav-link').hover(
+            $('.nav-link').hover(
                 function () {
                     $(this).css('cssText', 'color: #03a9f4 !important;')
                 },
@@ -24,16 +26,11 @@ $('document').ready(function () {
 
                 });
 
-       /*     $('#navUl a').hover(
-                function () {
-                    $(this).toggleClass('jsHover')
-
-                });*/
-
         } else {
 
+            //Styles for the navigation when the page is scrolling
 
-            $('.headerBg').css({
+            $('#header').css({
                 'backgroundColor': 'rgba(255, 255, 255, 1)',
                 'boxShadow': '0 0 10px grey'
             });
@@ -42,52 +39,25 @@ $('document').ready(function () {
             $('.navbar-toggler-icon').css('cssText', 'background-image: url(images/menu2.png) !important; ');
             $('.navbar-toggler').css('cssText', 'border-color: rgba(0, 0, 0, 0.5)!important;');
 
-             $('.nav-link').hover(
+            $('.nav-link').hover(
                 function () {
                     $(this).css('cssText', 'color: #03a9f4 !important; ')
                 },
                 function () {
                     $(this).css('cssText', 'color:rgba(0, 0, 0, 0.5)!important; ')
-
                 });
-
-          /*  $('#navUl a').hover(
-                function () {
-                    $(this).toggleClass('jsHover')
-
-                });*/
-
         };
-        
-    
     }
-    
-    
+
+    // Styles of the links when hover    
+
     $('.nav-link').hover(
-                function () {
-                    $(this).css('cssText', 'color: #03a9f4 !important; ')
-                },
-                function () {
-                    $(this).css('cssText', 'color:rgba(255, 255, 255, 0.8)!important; ')
+        function () {
+            $(this).css('cssText', 'color: #03a9f4 !important; ')
+        },
+        function () {
+            $(this).css('cssText', 'color:rgba(255, 255, 255, 0.8)!important; ')
 
-                });    
-    
-    
-
-    $('#navUl').onePageNav({
-        currentClass: 'active',
-        changeHash: false,
-        scrollSpeed: 950,
-        scrollThreshold: 0.2,
-        filter: '',
-        easing: 'swing',
-        begin: function () {},
-        end: function () {},
-        scrollChange: function ($currentListItem) {
-
-
-        }
-    });
-
+        });
 
 });
