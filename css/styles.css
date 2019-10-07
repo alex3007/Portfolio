@@ -47,7 +47,6 @@ header .nav-item {
 }
 
 .header-subtitle {
-
     font-size: 22px;
     padding-bottom: 20px
 }
@@ -55,24 +54,21 @@ header .nav-item {
 /*-----Navigation------*/
 
 #navBar a {
-
     color: rgba(255, 255, 255, 0.8);
 }
 
 .navbarBrand {
-
     font-size: 22px;
     text-decoration: none;
     font-weight: bold;
 }
 
 .navbarBrand:hover {
-
     text-decoration: none !important;
     color: rgba(255, 255, 255, 0.8) !important;
 }
 
-.navbar-toggler-icon {
+.navbar-toggler-icon{
     background-image: url(../images/menu1.png) !important;
     opacity: 0.5;
 }
@@ -91,12 +87,10 @@ header .nav-item {
 
 
 .jsHover {
-
     color: #03a9f4 !important;
 }
 
 .align-holder {
-
     padding-top: 160px;
     color: white;
 }
@@ -105,7 +99,6 @@ header .nav-item {
 
 
 .greeting {
-
     background-image: url(../images/it1.jpg);
     min-height: 60vh;
     background-repeat: no-repeat;
@@ -140,13 +133,11 @@ header .nav-item {
 
 
 .content{
-    
     text-align: center;
     
 }
 
 .content-logo img{
-    
    width: 50px;
     margin-top: 27px
 }
@@ -164,7 +155,6 @@ header .nav-item {
 }
 
 .content h5 {
-
     font-size: 14px;
     font-family: 'muli', italic;
     font-weight: 700;
@@ -172,13 +162,6 @@ header .nav-item {
     margin-bottom: 90px;
     
 }
-
-.content img{
-    
-    
-}
-
-
 
 .midle-image {
     margin: 0 -60px;
@@ -188,7 +171,6 @@ header .nav-item {
 /*------About me------*/
 
 #target {
-
     background-color: #f5fafd;
     padding-bottom: 40px;
 }
@@ -199,17 +181,14 @@ header .nav-item {
 }
 
 .about-me {
-
     padding-top: 25px;
 }
 
 .row-padding {
-
     padding: 0 65px;
 }
 
 .card-block {
-
     max-width: 500px;
     margin: 0 auto;
 }
@@ -221,7 +200,6 @@ header .nav-item {
 }
 
 .card-img-block img {
-
     max-width: 100px;
 }
 
@@ -230,7 +208,6 @@ header .nav-item {
 }
 
 .card-title-color {
-
     color: #ff9800;
     margin-top: 25px;
 }
@@ -265,13 +242,11 @@ header .nav-item {
 }
 
 .card-img {
-
     background-color: black;
     overflow: hidden;
 }
 
 .card-img img {
-
     opacity: 0.85;
 }
 
@@ -297,12 +272,10 @@ header .nav-item {
 }
 
 .post-image-block {
-
     text-align: center;
 }
 
 .post-image {
-
     max-width: 650px;
 }
 
@@ -343,18 +316,15 @@ grid-posts {
 
 
 .contacts{
-
     margin-bottom: 50px;
     padding-left: 10px;
 }
 
 a.contacts{
-    
     color: rgba(68, 162, 219,1); 
 }
 
 a.contacts:hover{
-    
     color: rgba(255, 255, 255, 0.7); 
 }
 
@@ -370,20 +340,17 @@ footer {
 }
 
 .footer-wrapper {
-
     background-color: rgba(0, 0, 0, 0.6);
     min-height: 80vh;
 }
 
 .footer-tittle {
-
     margin-top: 140px;
     margin-bottom: 70px;
 }
 
 
 .footer-image {
-
     margin: 5px;
     padding: 5px;
     width: 40px;
@@ -395,8 +362,6 @@ footer {
 
 
 .footer-image:hover {
-
-    
     background-color: rgba(68, 162, 219,0.4);
     
 }
@@ -410,12 +375,12 @@ footer {
 
 
 @media only screen and (max-width: 1199px) {
+    
     .grid-posts .card-img-top {
         max-height: 300px;
     }
 
     .row-padding {
-
         padding: 0 0;
     }
 }
@@ -427,7 +392,6 @@ footer {
 
 
     nav {
-
         text-align: center;
         width: 100%;
         float: none;
@@ -436,7 +400,6 @@ footer {
     }
 
     nav .nav-item {
-
         width: 100px;
         margin-left: auto !important;
         margin-right: 60px !important;
@@ -466,7 +429,6 @@ footer {
 
 
     .bottom {
-
         margin-bottom: 15px;
     }
 
@@ -491,7 +453,6 @@ footer {
     }
 
     .round-images {
-
         display: block;
         margin-top: 70px;
     }
@@ -502,7 +463,6 @@ footer {
 
 
     .midle-image {
-
         margin: 0 -45px;
     }
 
@@ -512,7 +472,6 @@ footer {
     }
 
     .card-title-color {
-
         margin-top: 5px;
     }
 }
@@ -521,17 +480,14 @@ footer {
 @media only screen and (max-width : 360px) {
 
     .align-holder h1 {
-
         font-size: 35px;
     }
 
     .midle-image {
-
         margin: 0 -35px;
     }
     
 .title-styles {
-    
     font-size: 27px!important;
 }
 

@@ -1,7 +1,6 @@
 // OnePageNav init
 
 $('document').ready(function () {
-
     $('#navUl').onePageNav({
         currentClass: 'active',
         changeHash: false,
