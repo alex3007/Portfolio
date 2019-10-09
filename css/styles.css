@@ -211,12 +211,13 @@ header .active a::after {
 #target {
     background-color: #f5fafd;
     padding-bottom: 40px;
+    
 }
 
 
 #target img {
     border-radius: 10px;
-}
+    }
 
 .about-me {
     padding-top: 25px;
