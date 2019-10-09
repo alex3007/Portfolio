@@ -39,6 +39,14 @@ header .nav-item {
     font-weight: bold;
 }
 
+header .active a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #03a9f4;
+    height: 2px;
+    transform: scale(1);
+}
 
 .header-wrapper {
     background-color: rgba(0, 0, 0, 0.3);
@@ -49,6 +57,33 @@ header .nav-item {
 .header-subtitle {
     font-size: 22px;
     padding-bottom: 20px
+}
+
+.header-fixed {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px grey;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.header-fixed .nav-link,
+.header-fixed .navbarBrand {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.header-fixed .navbarBrand:hover {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.header-fixed .navbar-toggler-icon {
+    background-image: url(../images/menu2.png) !important;
+
+}
+
+.header-fixed .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.5) !important;
 }
 
 /*-----Navigation------*/
@@ -68,7 +103,7 @@ header .nav-item {
     color: rgba(255, 255, 255, 0.8) !important;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background-image: url(../images/menu1.png) !important;
     opacity: 0.5;
 }
@@ -85,9 +120,12 @@ header .nav-item {
     background-color: rgba(255, 255, 255, 0.1)
 }
 
-
-.jsHover {
-    color: #03a9f4 !important;
+.nav-link:hover {
+    color: rgba(68, 162, 219, 1) !important;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
 }
 
 .align-holder {
@@ -132,13 +170,13 @@ header .nav-item {
 }
 
 
-.content{
+.content {
     text-align: center;
-    
+
 }
 
-.content-logo img{
-   width: 50px;
+.content-logo img {
+    width: 50px;
     margin-top: 27px
 }
 
@@ -148,10 +186,10 @@ header .nav-item {
     margin-top: -55px;
     border-radius: 60px;
     box-shadow: 0 0 20px black;
-    background-color: rgba(68, 162, 219,1);
+    background-color: rgba(68, 162, 219, 1);
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .content h5 {
@@ -160,7 +198,7 @@ header .nav-item {
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 90px;
-    
+
 }
 
 .midle-image {
@@ -237,8 +275,8 @@ header .nav-item {
 /*-------Portfolio------*/
 
 
-.card{
-    margin-bottom: 50px!important;
+.card {
+    margin-bottom: 50px !important;
 }
 
 .card-img {
@@ -315,17 +353,17 @@ grid-posts {
 }
 
 
-.contacts{
+.contacts {
     margin-bottom: 50px;
     padding-left: 10px;
 }
 
-a.contacts{
-    color: rgba(68, 162, 219,1); 
+a.contacts {
+    color: rgba(68, 162, 219, 1);
 }
 
-a.contacts:hover{
-    color: rgba(255, 255, 255, 0.7); 
+a.contacts:hover {
+    color: rgba(255, 255, 255, 0.7);
 }
 
 /*------Footer-----*/
@@ -354,7 +392,7 @@ footer {
     margin: 5px;
     padding: 5px;
     width: 40px;
-    background-color: rgba(68, 162, 219,0.7);
+    background-color: rgba(68, 162, 219, 0.7);
     border-radius: 5px;
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 0 10px #000000;
@@ -362,8 +400,8 @@ footer {
 
 
 .footer-image:hover {
-    background-color: rgba(68, 162, 219,0.4);
-    
+    background-color: rgba(68, 162, 219, 0.4);
+
 }
 
 
@@ -375,7 +413,7 @@ footer {
 
 
 @media only screen and (max-width: 1199px) {
-    
+
     .grid-posts .card-img-top {
         max-height: 300px;
     }
@@ -437,10 +475,10 @@ footer {
         text-align: center;
 
     }
-    
-    .card{
-    margin-bottom: 0px!important;
-}
+
+    .card {
+        margin-bottom: 0px !important;
+    }
 }
 
 @media only screen and (max-width : 575px) {
@@ -486,9 +524,9 @@ footer {
     .midle-image {
         margin: 0 -35px;
     }
-    
-.title-styles {
-    font-size: 27px!important;
-}
+
+    .title-styles {
+        font-size: 27px !important;
+    }
 
 }
