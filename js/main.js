@@ -22,5 +22,7 @@ $('document').ready(function () {
             $("header").removeClass("header-fixed");
         };
     });
+    
+// Animation
     new WOW().init();
 })
