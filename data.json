@@ -41,7 +41,7 @@
         "path": "/controller1",
         "name": "ControllerName1",
         "cost": "80",
-        "photo": "https://www.festo.com/cat/be_by/data/TRB/C37A58C6812E4429BDDFF722A87140D9.jpg",
+        "photo": "https://www.festo.com/cat/be_by/data/TRB/DD2DCB7DBF5D4E29803D3F37A4659020.jpg",
         "features": "Качаственно и доступно",
         "description": "Описание1"
       },
@@ -50,7 +50,7 @@
         "path": "/controller2",
         "name": "ControllerName2",
         "cost": "80",
-        "photo": "https://www.festo.com/cat/be_by/data/TRB/C37A58C6812E4429BDDFF722A87140D9.jpg",
+        "photo": "https://www.festo.com/cat/be_by/data/TRB/DD2DCB7DBF5D4E29803D3F37A4659020.jpg",
         "features": "Качаственно и доступно",
         "description": "Описание2"
       },
@@ -59,7 +59,7 @@
         "path": "/controller3",
         "name": "ControllerName3",
         "cost": "80",
-        "photo": "https://www.festo.com/cat/be_by/data/TRB/C37A58C6812E4429BDDFF722A87140D9.jpg",
+        "photo": "https://www.festo.com/cat/be_by/data/TRB/DD2DCB7DBF5D4E29803D3F37A4659020.jpg",
         "features": "Качаственно и доступно",
         "description": "Описание3"
       }
