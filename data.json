@@ -9,7 +9,7 @@
         "name": "SencorName1",
         "cost": "75",
         "photo": "https://www.festo.com/cat/be_by/data/TRB/9CEB722F49F4489BA3853E1D747BA0DF.jpg",
-        "features": "Доступность и надежность",
+        "features": "Доступно и надежно",
         "description": "Описание1"
       },
       {
@@ -18,7 +18,7 @@
         "name": "SencorName2",
         "cost": "75",
         "photo": "https://www.festo.com/cat/be_by/data/TRB/9CEB722F49F4489BA3853E1D747BA0DF.jpg",
-        "features": "Доступность и надежность",
+        "features": "Доступно и надежно",
         "description": "Описание2"
       },
       {
@@ -27,7 +27,7 @@
         "name": "SencorName3",
         "cost": "75",
         "photo": "https://www.festo.com/cat/be_by/data/TRB/9CEB722F49F4489BA3853E1D747BA0DF.jpg",
-        "features": "Доступность и надежность",
+        "features": "Доступно и надежно",
         "description": "Описание3"
       }
     ]
