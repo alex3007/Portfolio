@@ -206,7 +206,7 @@ header .active a::after {
     z-index: 1;
 }
 
-/*------About me------*/
+/*------Scills------*/
 
 #target {
     background-color: #f5fafd;
@@ -472,11 +472,7 @@ footer {
     }
 
 
-    .about-me {
-        text-align: center;
-
-    }
-
+   
     .card {
         margin-bottom: 0px !important;
     }
